@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+  <sys_user_role action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>58707a5aabf44aa69e93f02e43090abc</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_user_role_58707a5aabf44aa69e93f02e43090abc</sys_update_name>
+    <assignable_by/>
+    <can_delegate>true</can_delegate>
+    <description>Administrator role with full access to all Tyre Request Management System tables and configuration.</description>
+    <elevated_privilege>false</elevated_privilege>
+    <grantable>true</grantable>
+    <name>x_1527007_tyre_r_1.admin</name>
+    <scoped_admin>false</scoped_admin>
+    <suffix>admin</suffix>
+  </sys_user_role>
+</record_update>

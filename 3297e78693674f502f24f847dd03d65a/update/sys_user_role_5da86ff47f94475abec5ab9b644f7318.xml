@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+  <sys_user_role action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>5da86ff47f94475abec5ab9b644f7318</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_user_role_5da86ff47f94475abec5ab9b644f7318</sys_update_name>
+    <assignable_by/>
+    <can_delegate>true</can_delegate>
+    <description>Basic user role for the Tyre Request Management System. Can read customers and tyre types, and create/edit tyre requests.</description>
+    <elevated_privilege>false</elevated_privilege>
+    <grantable>true</grantable>
+    <name>x_1527007_tyre_r_1.user</name>
+    <scoped_admin>false</scoped_admin>
+    <suffix>user</suffix>
+  </sys_user_role>
+</record_update>

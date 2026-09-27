@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>ade915e1915e403e986cfd6a9a351e3f</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_security_acl_ade915e1915e403e986cfd6a9a351e3f</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>false</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description>Allow managers and admins to edit customer records.</description>
+    <name>x_1527007_tyre_r_1_customer</name>
+    <operation display_value="write">write</operation>
+    <script/>
+    <security_attribute/>
+    <sys_name>x_1527007_tyre_r_1_customer</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>9e91e84981b3462996868f800ecfc9de</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_security_acl_9e91e84981b3462996868f800ecfc9de</sys_update_name>
+    <active>true</active>
+    <admin_overrides>true</admin_overrides>
+    <advanced>false</advanced>
+    <applies_to/>
+    <condition/>
+    <decision_type>allow</decision_type>
+    <description>Only admins can create new tyre type catalogue entries.</description>
+    <name>x_1527007_tyre_r_1_tyre</name>
+    <operation display_value="create">create</operation>
+    <script/>
+    <security_attribute/>
+    <sys_name>x_1527007_tyre_r_1_tyre</sys_name>
+    <type>record</type>
+  </sys_security_acl>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+  <sys_security_acl_role action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>07f7d4d9450a4adbaf044d94bc8e24e1</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_security_acl_role_07f7d4d9450a4adbaf044d94bc8e24e1</sys_update_name>
+    <sys_security_acl>d48ef4c029214d24bc7a88e9ca653055</sys_security_acl>
+    <sys_user_role name="x_1527007_tyre_r_1.manager">95f3fd76ba7a4c28bedb97de95108f9b</sys_user_role>
+  </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+  <sys_user_role_contains action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>805c19dc00444aadb5dfe983002a6337</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_user_role_contains_805c19dc00444aadb5dfe983002a6337</sys_update_name>
+    <contains name="x_1527007_tyre_r_1.manager">95f3fd76ba7a4c28bedb97de95108f9b</contains>
+    <role name="x_1527007_tyre_r_1.admin">58707a5aabf44aa69e93f02e43090abc</role>
+  </sys_user_role_contains>
+</record_update>
