@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
+  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b9157cdd877947b183d766584a3cd852</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_script_b9157cdd877947b183d766584a3cd852</sys_update_name>
+    <abort_action>false</abort_action>
+    <access>package_private</access>
+    <action_delete>false</action_delete>
+    <action_insert>false</action_insert>
+    <action_query>false</action_query>
+    <action_update>true</action_update>
+    <active>true</active>
+    <add_message>false</add_message>
+    <advanced>true</advanced>
+    <change_fields>false</change_fields>
+    <client_callable>false</client_callable>
+    <collection>x_1527007_tyre_r_1_request</collection>
+    <condition/>
+    <description>When a tyre request is completed, deducts the requested quantity from the tyre type stock.</description>
+    <execute_function>false</execute_function>
+    <filter_condition>statusCHANGESTO completed</filter_condition>
+    <is_rest>false</is_rest>
+    <message/>
+    <name>Update Tyre Stock on Completion</name>
+    <order>200</order>
+    <priority>100</priority>
+    <rest_method/>
+    <rest_method_text/>
+    <rest_service/>
+    <rest_service_text/>
+    <rest_variables/>
+    <role_conditions/>
+    <script><![CDATA[(function executeRule(current, previous) {
+    var newStatus = current.getValue('status');
+    var oldStatus = previous.getValue('status');
+
+    // Only run when status changes to 'completed'
+    if (newStatus !== 'completed' || oldStatus === 'completed') {
+        return;
+    }
+
+    var tyreTypeId = current.getValue('tyre_type');
+    if (!tyreTypeId) {
+        return;
+    }
+
+    var quantity = parseInt(current.getValue('quantity'), 10);
+    if (isNaN(quantity) || quantity <= 0) {
+        return;
+    }
+
+    var tyreGr = new GlideRecord('x_1527007_tyre_r_1_tyre');
+    if (tyreGr.get(tyreTypeId)) {
+        var currentStock = parseInt(tyreGr.getValue('stock_quantity'), 10) || 0;
+        var newStock = currentStock - quantity;
+        tyreGr.setValue('stock_quantity', newStock < 0 ? 0 : newStock);
+        tyreGr.update();
+
+        if (newStock < 0) {
+            gs.addInfoMessage('Warning: Tyre stock for "' + tyreGr.getValue('name') + '" is now depleted.');
+        }
+    }
+})(current, previous);
+]]></script>
+    <sys_name>Update Tyre Stock on Completion</sys_name>
+    <sys_policy/>
+    <template/>
+    <when>after</when>
+  </sys_script>
+</record_update>

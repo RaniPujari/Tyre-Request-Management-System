@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
+  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>3354a7e3ffa944b996f3f8fe5ba17099</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_script_3354a7e3ffa944b996f3f8fe5ba17099</sys_update_name>
+    <abort_action>false</abort_action>
+    <access>package_private</access>
+    <action_delete>false</action_delete>
+    <action_insert>false</action_insert>
+    <action_query>false</action_query>
+    <action_update>true</action_update>
+    <active>true</active>
+    <add_message>false</add_message>
+    <advanced>true</advanced>
+    <change_fields>false</change_fields>
+    <client_callable>false</client_callable>
+    <collection>x_1527007_tyre_r_1_request</collection>
+    <condition/>
+    <description>Blocks changes to key fields (customer, tyre type, quantity, etc.) on completed or cancelled requests.</description>
+    <execute_function>false</execute_function>
+    <filter_condition>statusINcompleted,cancelled</filter_condition>
+    <is_rest>false</is_rest>
+    <message/>
+    <name>Prevent Edit on Completed Request</name>
+    <order>10</order>
+    <priority>100</priority>
+    <rest_method/>
+    <rest_method_text/>
+    <rest_service/>
+    <rest_service_text/>
+    <rest_variables/>
+    <role_conditions/>
+    <script><![CDATA[(function executeRule(current, previous) {
+    var currentStatus = current.getValue('status');
+
+    if (currentStatus === 'completed' || currentStatus === 'cancelled') {
+        var fieldsToProtect = ['customer', 'tyre_type', 'request_type', 'quantity', 'vehicle_make', 'vehicle_model', 'priority'];
+
+        for (var i = 0; i < fieldsToProtect.length; i++) {
+            var field = fieldsToProtect[i];
+            if (current.getValue(field) !== previous.getValue(field)) {
+                gs.addErrorMessage('Cannot modify "' + field + '" on a ' + currentStatus + ' request.');
+                current.setAbortAction(true);
+                return;
+            }
+        }
+    }
+})(current, previous);
+]]></script>
+    <sys_name>Prevent Edit on Completed Request</sys_name>
+    <sys_policy/>
+    <template/>
+    <when>before</when>
+  </sys_script>
+</record_update>
