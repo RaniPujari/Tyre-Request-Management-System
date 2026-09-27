@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+  <question_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>8969a747d1ad44aba97a2bcc5314d85e</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>question_choice_8969a747d1ad44aba97a2bcc5314d85e</sys_update_name>
+    <inactive>false</inactive>
+    <order>2</order>
+    <question cat_item="8caf4d1960274afdbe4dea4e99fcc262" name="req_type" variable_set="NULL">842bd8b2c1f84b78a1be87f522e301d9</question>
+    <text>Replacement</text>
+    <value>replacement</value>
+  </question_choice>
+</record_update>

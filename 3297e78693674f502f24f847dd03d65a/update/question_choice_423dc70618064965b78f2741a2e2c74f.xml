@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+  <question_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>423dc70618064965b78f2741a2e2c74f</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>question_choice_423dc70618064965b78f2741a2e2c74f</sys_update_name>
+    <inactive>false</inactive>
+    <order>3</order>
+    <question cat_item="8caf4d1960274afdbe4dea4e99fcc262" name="req_priority" variable_set="NULL">b502c7f3eeac4226be3a872b9c58462e</question>
+    <text>High</text>
+    <value>high</value>
+  </question_choice>
+</record_update>

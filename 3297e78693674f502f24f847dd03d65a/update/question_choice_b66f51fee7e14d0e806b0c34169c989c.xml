@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+  <question_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>b66f51fee7e14d0e806b0c34169c989c</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>question_choice_b66f51fee7e14d0e806b0c34169c989c</sys_update_name>
+    <inactive>false</inactive>
+    <order>4</order>
+    <question cat_item="8caf4d1960274afdbe4dea4e99fcc262" name="req_priority" variable_set="NULL">b502c7f3eeac4226be3a872b9c58462e</question>
+    <text>Critical</text>
+    <value>critical</value>
+  </question_choice>
+</record_update>

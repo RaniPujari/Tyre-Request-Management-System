@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+  <question_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>d5a0532e8cd744d580c6f40b0a1a5b80</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>question_choice_d5a0532e8cd744d580c6f40b0a1a5b80</sys_update_name>
+    <inactive>false</inactive>
+    <order>4</order>
+    <question cat_item="8caf4d1960274afdbe4dea4e99fcc262" name="req_type" variable_set="NULL">842bd8b2c1f84b78a1be87f522e301d9</question>
+    <text>Maintenance</text>
+    <value>maintenance</value>
+  </question_choice>
+</record_update>
