@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>6c1af7421e1c4f5dbc382a81047b8fc1</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_app_module_6c1af7421e1c4f5dbc382a81047b8fc1</sys_update_name>
+    <active>true</active>
+    <application>98a8c0876e134653a3b4520e0c9ad90e</application>
+    <link_type>SEPARATOR</link_type>
+    <order>600</order>
+    <roles>x_1527007_tyre_r_1.user</roles>
+    <title>Inventory</title>
+  </sys_app_module>
+</record_update>

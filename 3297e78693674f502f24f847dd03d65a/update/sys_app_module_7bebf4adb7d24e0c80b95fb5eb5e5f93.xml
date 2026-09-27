@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>7bebf4adb7d24e0c80b95fb5eb5e5f93</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_app_module_7bebf4adb7d24e0c80b95fb5eb5e5f93</sys_update_name>
+    <active>true</active>
+    <application>98a8c0876e134653a3b4520e0c9ad90e</application>
+    <hint>View tyre type catalogue and stock levels</hint>
+    <link_type>LIST</link_type>
+    <name>x_1527007_tyre_r_1_tyre</name>
+    <order>700</order>
+    <roles>x_1527007_tyre_r_1.user</roles>
+    <title>Tyre Types</title>
+  </sys_app_module>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_category">
+  <sys_app_category action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>0852fdefb098431b9c6ffdb816199b61</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_app_category_0852fdefb098431b9c6ffdb816199b61</sys_update_name>
+    <name>Tyre Management</name>
+    <style>border-color: #4a90d9; background-color: #eaf3fc;</style>
+  </sys_app_category>
+</record_update>

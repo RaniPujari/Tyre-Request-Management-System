@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_application">
+  <sys_app_application action="INSERT_OR_UPDATE" apply_defaults="true">
+    <sys_id>98a8c0876e134653a3b4520e0c9ad90e</sys_id>
+    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+    <sys_update_name>sys_app_application_98a8c0876e134653a3b4520e0c9ad90e</sys_update_name>
+    <active>true</active>
+    <category>0852fdefb098431b9c6ffdb816199b61</category>
+    <description>Application menu for the Tyre Request Management System.</description>
+    <device_type>browser</device_type>
+    <hint>Manage customer tyre service requests, customers, and tyre inventory.</hint>
+    <name/>
+    <order>100</order>
+    <roles>x_1527007_tyre_r_1.user</roles>
+    <title>Tyre Request Management</title>
+  </sys_app_application>
+</record_update>
