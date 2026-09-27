@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Request Details" section_id="2d36beef773741929e0db8d2fe3aad91" sys_domain="global" table="x_1527007_tyre_r_1_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>dfed7bb2d23e44ec827b0f704a5da025</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>number</element>
+      <position>1</position>
+      <sys_id>4f2c49d2b43f42108fd788cc9af6ecc2</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>customer</element>
+      <position>2</position>
+      <sys_id>f5b8e5948bc04b78a8578fa58be5c066</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>request_type</element>
+      <position>3</position>
+      <sys_id>2090def5e91c4917a51005c51e9413e7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>tyre_type</element>
+      <position>4</position>
+      <sys_id>fb49c8c60f6240c0a95d5c24e17544be</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>quantity</element>
+      <position>5</position>
+      <sys_id>f6e4b4d8b20d48ea963adce299aa86bf</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>6</position>
+      <sys_id>12aabde375ce4d6da1546393156c29bd</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>status</element>
+      <position>7</position>
+      <sys_id>4bf7f98308004a72a23ebf285710224a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>priority</element>
+      <position>8</position>
+      <sys_id>3ad5bb209c2c48558b92f8fb6acbcac5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>requested_date</element>
+      <position>9</position>
+      <sys_id>8911bc95ce5b4e80803ecd5bb9279a41</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>vehicle_make</element>
+      <position>10</position>
+      <sys_id>db1034429f924b6fa7cd3a019964eb0e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>vehicle_model</element>
+      <position>11</position>
+      <sys_id>037a3cd284714f9697fdc9230f072af1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>12</position>
+      <sys_id>70b58e02d58d4bfebc39969dc0ef0c89</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>short_description</element>
+      <position>13</position>
+      <sys_id>1fe0378fea73446e9993166b5790a9dc</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>description</element>
+      <position>14</position>
+      <sys_id>95724c38ec864870a268731f05ae1f81</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Request Details</caption>
+      <header>false</header>
+      <name>x_1527007_tyre_r_1_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>2d36beef773741929e0db8d2fe3aad91</sys_id>
+      <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

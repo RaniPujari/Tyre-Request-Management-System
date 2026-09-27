@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Notes" section_id="fe603e558c234fd5a168b34253a94ea4" sys_domain="global" table="x_1527007_tyre_r_1_request" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>notes</element>
+      <position>0</position>
+      <sys_id>842184490b2a4b948b4ac212af2c4239</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Notes" display_value="Notes" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">fe603e558c234fd5a168b34253a94ea4</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Notes</caption>
+      <header>false</header>
+      <name>x_1527007_tyre_r_1_request</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>fe603e558c234fd5a168b34253a94ea4</sys_id>
+      <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

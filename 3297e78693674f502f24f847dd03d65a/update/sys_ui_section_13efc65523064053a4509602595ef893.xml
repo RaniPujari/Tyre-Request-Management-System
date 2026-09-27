@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Tyre Details" section_id="13efc65523064053a4509602595ef893" sys_domain="global" table="x_1527007_tyre_r_1_tyre" view="">
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>7afb827c5a91497fabe7fdec4dab6aea</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>name</element>
+      <position>1</position>
+      <sys_id>584c952bcef741be94310cbd33d87234</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>brand</element>
+      <position>2</position>
+      <sys_id>ac4fc2ccde554a2e969b83354348c150</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>size</element>
+      <position>3</position>
+      <sys_id>7fd62e01ba0f444999d151c4aeb6da62</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.split</element>
+      <position>4</position>
+      <sys_id>6264fdad948e4674bad04d74c08fdb10</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>tyre_category</element>
+      <position>5</position>
+      <sys_id>ded734776ee64b2ea735e0d1730bd239</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>price</element>
+      <position>6</position>
+      <sys_id>c9aeb326d9054d539895f6077b0c19e6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>stock_quantity</element>
+      <position>7</position>
+      <sys_id>53582fc26e3a47e68e444c9cf8e55733</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>.end_split</element>
+      <position>8</position>
+      <sys_id>3bd722789662407c805bdadcc1b84ff5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE" apply_defaults="true">
+      <element>active</element>
+      <position>9</position>
+      <sys_id>26c15ca352724d50ba8fb06c42dd107a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Tyre Details" display_value="Tyre Details" name="x_1527007_tyre_r_1_tyre" sys_domain="global" view="Default view">13efc65523064053a4509602595ef893</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <caption>Tyre Details</caption>
+      <header>false</header>
+      <name>x_1527007_tyre_r_1_tyre</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>13efc65523064053a4509602595ef893</sys_id>
+      <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view display_value="Default view" name="NULL">Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>

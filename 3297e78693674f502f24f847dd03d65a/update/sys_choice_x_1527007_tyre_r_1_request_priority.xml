@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true" field="priority" table="x_1527007_tyre_r_1_request" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>25cbd91ce0bd4993b2a9aaacbda31ff4</sys_id>
+      <element>priority</element>
+      <sys_update_name>sys_choice_x_1527007_tyre_r_1_request_priority</sys_update_name>
+      <name>x_1527007_tyre_r_1_request</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+      <sys_package display_value="x_1527007_tyre_r_1" source="3297e78693674f502f24f847dd03d65a">3297e78693674f502f24f847dd03d65a</sys_package>
+      <sys_name>priority</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>a78d391564d64705863a113d4c4e72eb</sys_id>
+      <name>x_1527007_tyre_r_1_request</name>
+      <element>priority</element>
+      <label>Low</label>
+      <value>low</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>5b142cab4e924cafbc18bd96b4dfba7d</sys_id>
+      <name>x_1527007_tyre_r_1_request</name>
+      <element>priority</element>
+      <label>Medium</label>
+      <value>medium</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>d6a9503a29e346dbb58711553a011529</sys_id>
+      <name>x_1527007_tyre_r_1_request</name>
+      <element>priority</element>
+      <label>High</label>
+      <value>high</value>
+      <sequence>3</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE" apply_defaults="true">
+      <sys_id>366988a891454c2690cbf2f29fd40d2e</sys_id>
+      <name>x_1527007_tyre_r_1_request</name>
+      <element>priority</element>
+      <label>Critical</label>
+      <value>critical</value>
+      <sequence>4</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

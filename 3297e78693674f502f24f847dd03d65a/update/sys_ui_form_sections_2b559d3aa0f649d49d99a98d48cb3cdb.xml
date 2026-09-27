@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="2b559d3aa0f649d49d99a98d48cb3cdb" sys_domain="global" table="x_1527007_tyre_r_1_request">
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>0</position>
+      <sys_id>cc87156f33b74c6684642f9639ce58d2</sys_id>
+      <sys_ui_form display_value="x_1527007_tyre_r_1_request" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2b559d3aa0f649d49d99a98d48cb3cdb</sys_ui_form>
+      <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2d36beef773741929e0db8d2fe3aad91</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>1</position>
+      <sys_id>564984b77d7e4d23b1ef16a0d5473ee0</sys_id>
+      <sys_ui_form display_value="x_1527007_tyre_r_1_request" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">2b559d3aa0f649d49d99a98d48cb3cdb</sys_ui_form>
+      <sys_ui_section caption="Notes" display_value="Notes" name="x_1527007_tyre_r_1_request" sys_domain="global" view="Default view">fe603e558c234fd5a168b34253a94ea4</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE" apply_defaults="true">
+      <name>x_1527007_tyre_r_1_request</name>
+      <roles/>
+      <sys_id>2b559d3aa0f649d49d99a98d48cb3cdb</sys_id>
+      <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>

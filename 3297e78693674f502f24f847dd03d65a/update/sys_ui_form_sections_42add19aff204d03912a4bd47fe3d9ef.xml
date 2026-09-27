@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="42add19aff204d03912a4bd47fe3d9ef" sys_domain="global" table="x_1527007_tyre_r_1_customer">
+    <sys_ui_form_section action="INSERT_OR_UPDATE" apply_defaults="true">
+      <position>0</position>
+      <sys_id>a5b713882d0942ef926bbd3124c533e6</sys_id>
+      <sys_ui_form display_value="x_1527007_tyre_r_1_customer" name="x_1527007_tyre_r_1_customer" sys_domain="global" view="Default view">42add19aff204d03912a4bd47fe3d9ef</sys_ui_form>
+      <sys_ui_section caption="Customer Details" display_value="Customer Details" name="x_1527007_tyre_r_1_customer" sys_domain="global" view="Default view">018556fca1a04df5b806db766a04fbe0</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE" apply_defaults="true">
+      <name>x_1527007_tyre_r_1_customer</name>
+      <roles/>
+      <sys_id>42add19aff204d03912a4bd47fe3d9ef</sys_id>
+      <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>
