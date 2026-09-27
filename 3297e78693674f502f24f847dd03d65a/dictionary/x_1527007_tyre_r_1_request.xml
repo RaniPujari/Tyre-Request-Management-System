@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="618f3192556d42358a146d35ccba0c0f" label="Tyre Request" name="x_1527007_tyre_r_1_request" type="collection">
+        <element label="Requested Date" name="requested_date" type="glide_date"/>
+        <element label="Vehicle Make" max_length="100" name="vehicle_make" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="multi_two_lines"/>
+        <element display="true" label="Short Description" mandatory="true" max_length="200" name="short_description" type="string"/>
+        <element label="Customer" mandatory="true" name="customer" reference="x_1527007_tyre_r_1_customer" type="reference"/>
+        <element label="Vehicle Model" max_length="100" name="vehicle_model" type="string"/>
+        <element default="1" label="Quantity" name="quantity" type="integer"/>
+        <element default="medium" label="Priority" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="4" value="critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
+            </choice>
+        </element>
+        <element default="new" label="Status" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
+            </choice>
+        </element>
+        <element label="Tyre Type" name="tyre_type" reference="x_1527007_tyre_r_1_tyre" type="reference"/>
+        <element default="new_order" label="Request Type" mandatory="true" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Repair" sequence="3" value="repair"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="4" value="maintenance"/>
+                <element inactive_on_update="false" label="Replacement" sequence="2" value="replacement"/>
+                <element inactive_on_update="false" label="New Order" sequence="1" value="new_order"/>
+            </choice>
+        </element>
+        <element label="Notes" name="notes" type="journal_input"/>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+        <index name="index2">
+            <element name="tyre_type"/>
+        </index>
+    </element>
+</database>

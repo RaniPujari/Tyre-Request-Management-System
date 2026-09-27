@@ -1,36 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script">
-  <sys_script action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>88b00939806945639d2d2bd40d8905e8</sys_id>
-    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
-    <sys_update_name>sys_script_88b00939806945639d2d2bd40d8905e8</sys_update_name>
-    <abort_action>false</abort_action>
-    <access>package_private</access>
-    <action_delete>false</action_delete>
-    <action_insert>true</action_insert>
-    <action_query>false</action_query>
-    <action_update>true</action_update>
-    <active>true</active>
-    <add_message>false</add_message>
-    <advanced>true</advanced>
-    <change_fields>false</change_fields>
-    <client_callable>false</client_callable>
-    <collection>x_1527007_tyre_r_1_request</collection>
-    <condition/>
-    <description>Validates that quantity is greater than zero, a customer is selected, and request type is set.</description>
-    <execute_function>false</execute_function>
-    <filter_condition/>
-    <is_rest>false</is_rest>
-    <message/>
-    <name>Validate Tyre Request</name>
-    <order>50</order>
-    <priority>100</priority>
-    <rest_method/>
-    <rest_method_text/>
-    <rest_service/>
-    <rest_service_text/>
-    <rest_variables/>
-    <role_conditions/>
-    <script><![CDATA[(function executeRule(current, previous) {
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1527007_tyre_r_1_request</collection>
+        <condition/>
+        <description>Validates that quantity is greater than zero, a customer is selected, and request type is set.</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Validate Tyre Request</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
     var quantity = parseInt(current.getValue('quantity'), 10);
     if (isNaN(quantity) || quantity <= 0) {
         gs.addErrorMessage('Quantity must be greater than zero.');
@@ -53,9 +50,23 @@
     }
 })(current, previous);
 ]]></script>
-    <sys_name>Validate Tyre Request</sys_name>
-    <sys_policy/>
-    <template/>
-    <when>before</when>
-  </sys_script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 11:11:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88b00939806945639d2d2bd40d8905e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Tyre Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tyre Request Management System" source="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tyre Request Management System">3297e78693674f502f24f847dd03d65a</sys_scope>
+        <sys_update_name>sys_script_88b00939806945639d2d2bd40d8905e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 11:11:21</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=88b00939806945639d2d2bd40d8905e8"/>
 </record_update>

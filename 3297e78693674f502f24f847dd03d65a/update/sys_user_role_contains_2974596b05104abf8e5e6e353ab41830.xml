@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
-  <sys_user_role_contains action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>2974596b05104abf8e5e6e353ab41830</sys_id>
-    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
-    <sys_update_name>sys_user_role_contains_2974596b05104abf8e5e6e353ab41830</sys_update_name>
-    <contains name="x_1527007_tyre_r_1.user">5da86ff47f94475abec5ab9b644f7318</contains>
-    <role name="x_1527007_tyre_r_1.manager">95f3fd76ba7a4c28bedb97de95108f9b</role>
-  </sys_user_role_contains>
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_1527007_tyre_r_1.user" name="x_1527007_tyre_r_1.user">5da86ff47f94475abec5ab9b644f7318</contains>
+        <role display_value="x_1527007_tyre_r_1.manager" name="x_1527007_tyre_r_1.manager">95f3fd76ba7a4c28bedb97de95108f9b</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 11:17:08</sys_created_on>
+        <sys_id>2974596b05104abf8e5e6e353ab41830</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1527007_tyre_r_1.user.x_1527007_tyre_r_1.manager</sys_name>
+        <sys_package display_value="Tyre Request Management System" source="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tyre Request Management System">3297e78693674f502f24f847dd03d65a</sys_scope>
+        <sys_update_name>sys_user_role_contains_2974596b05104abf8e5e6e353ab41830</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 11:17:08</sys_updated_on>
+    </sys_user_role_contains>
 </record_update>

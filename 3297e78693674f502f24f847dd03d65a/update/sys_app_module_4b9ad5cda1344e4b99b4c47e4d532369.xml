@@ -1,15 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
-  <sys_app_module action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>4b9ad5cda1344e4b99b4c47e4d532369</sys_id>
-    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
-    <sys_update_name>sys_app_module_4b9ad5cda1344e4b99b4c47e4d532369</sys_update_name>
-    <active>true</active>
-    <application>98a8c0876e134653a3b4520e0c9ad90e</application>
-    <hint>View all tyre requests</hint>
-    <link_type>LIST</link_type>
-    <name>x_1527007_tyre_r_1_request</name>
-    <order>100</order>
-    <roles>x_1527007_tyre_r_1.user</roles>
-    <title>Tyre Requests</title>
-  </sys_app_module>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Tyre Request Management">98a8c0876e134653a3b4520e0c9ad90e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>View all tyre requests</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title/>
+        <mobile_view_name/>
+        <name>x_1527007_tyre_r_1_request</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>false</require_confirmation>
+        <roles>x_1527007_tyre_r_1.user</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 11:26:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b9ad5cda1344e4b99b4c47e4d532369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tyre Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tyre Request Management System" source="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tyre Request Management System">3297e78693674f502f24f847dd03d65a</sys_scope>
+        <sys_update_name>sys_app_module_4b9ad5cda1344e4b99b4c47e4d532369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 11:26:30</sys_updated_on>
+        <timeline_page/>
+        <title>Tyre Requests</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
 </record_update>

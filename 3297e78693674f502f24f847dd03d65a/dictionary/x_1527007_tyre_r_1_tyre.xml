@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="de018ab94b5447cd98436766f6304d72" label="Tyre Type" name="x_1527007_tyre_r_1_tyre" type="collection">
+        <element default="true" label="Active" name="active" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="2" value="false"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="true"/>
+            </choice>
+        </element>
+        <element default="passenger" label="Category" name="tyre_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SUV" sequence="2" value="suv"/>
+                <element inactive_on_update="false" label="Motorcycle" sequence="4" value="motorcycle"/>
+                <element inactive_on_update="false" label="Truck" sequence="3" value="truck"/>
+                <element inactive_on_update="false" label="Passenger" sequence="1" value="passenger"/>
+            </choice>
+        </element>
+        <element display="true" label="Tyre Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element label="Brand" max_length="100" name="brand" type="string"/>
+        <element default="0" label="Stock Quantity" name="stock_quantity" type="integer"/>
+        <element label="Tyre Size" max_length="50" name="size" type="string"/>
+        <element label="Price" name="price" type="decimal"/>
+    </element>
+</database>

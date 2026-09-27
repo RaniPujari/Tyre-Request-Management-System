@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1f1ca181108a4ca39f393b73f5965673" label="Customer" name="x_1527007_tyre_r_1_customer" type="collection">
+        <element display="true" label="Customer Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element label="Address" max_length="500" name="address" type="multi_two_lines"/>
+        <element default="individual" label="Customer Type" name="customer_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Individual" sequence="1" value="individual"/>
+                <element inactive_on_update="false" label="Business" sequence="2" value="business"/>
+            </choice>
+        </element>
+        <element label="Email" name="email" type="email"/>
+        <element label="Phone Number" max_length="40" name="phone" type="string"/>
+    </element>
+</database>

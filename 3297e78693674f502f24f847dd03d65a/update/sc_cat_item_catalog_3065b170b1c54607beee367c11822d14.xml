@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
-  <sc_cat_item_catalog action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>3065b170b1c54607beee367c11822d14</sys_id>
-    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
-    <sys_update_name>sc_cat_item_catalog_3065b170b1c54607beee367c11822d14</sys_update_name>
-    <sc_cat_item>8caf4d1960274afdbe4dea4e99fcc262</sc_cat_item>
-    <sc_catalog>e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
-  </sc_cat_item_catalog>
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Submit Tyre Request">8caf4d1960274afdbe4dea4e99fcc262</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 11:40:26</sys_created_on>
+        <sys_id>3065b170b1c54607beee367c11822d14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.</sys_name>
+        <sys_package display_value="Tyre Request Management System" source="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tyre Request Management System">3297e78693674f502f24f847dd03d65a</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3065b170b1c54607beee367c11822d14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 11:40:26</sys_updated_on>
+    </sc_cat_item_catalog>
 </record_update>

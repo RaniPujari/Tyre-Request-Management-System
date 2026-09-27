@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
-  <sys_security_acl action="INSERT_OR_UPDATE" apply_defaults="true">
-    <sys_id>6f51085f3f934eaf9d7002f8a01ff96a</sys_id>
-    <sys_scope display_value="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_scope>
-    <sys_update_name>sys_security_acl_6f51085f3f934eaf9d7002f8a01ff96a</sys_update_name>
-    <active>true</active>
-    <admin_overrides>true</admin_overrides>
-    <advanced>false</advanced>
-    <applies_to/>
-    <condition/>
-    <decision_type>allow</decision_type>
-    <description>Allow users with the user role (or higher) to edit tyre request records.</description>
-    <name>x_1527007_tyre_r_1_request</name>
-    <operation display_value="write">write</operation>
-    <script/>
-    <security_attribute/>
-    <sys_name>x_1527007_tyre_r_1_request</sys_name>
-    <type>record</type>
-  </sys_security_acl>
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Allow users with the user role (or higher) to edit tyre request records.</description>
+        <local_or_existing/>
+        <name>x_1527007_tyre_r_1_request</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-27 11:16:10</sys_created_on>
+        <sys_id>6f51085f3f934eaf9d7002f8a01ff96a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1527007_tyre_r_1_request</sys_name>
+        <sys_package display_value="Tyre Request Management System" source="x_1527007_tyre_r_1">3297e78693674f502f24f847dd03d65a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tyre Request Management System">3297e78693674f502f24f847dd03d65a</sys_scope>
+        <sys_update_name>sys_security_acl_6f51085f3f934eaf9d7002f8a01ff96a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-27 11:16:10</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
 </record_update>
